@@ -1,0 +1,139 @@
+{
+  "id": 4,
+  "name": "测试",
+  "description": "测试测试",
+  "parent": {
+    "id": 1,
+    "name": "东北"
+  },
+  "products": [  
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 2,
+      "name": "东北粘豆包",
+      "single_price": 20,
+      "group_price": 15,
+       "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224308.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    }
+  ]
+}

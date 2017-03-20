@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "东北特产",
+    "banner": "http://omhf8n8jd.bkt.clouddn.com/4.png",
+    "sub_product_types": [
+      {
+        "id": 1,
+        "name": "野生果汁",
+        "description": "来自东北的野生果汁",        
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183458@2x.png"
+      },
+      {
+        "id": 2,
+        "name": "坚果礼盒",
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183524@2x.png"
+      },
+      {
+        "id": 3,
+        "name": "人参礼盒",
+        "description": "来自东北的人参礼盒",        
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183546@2x.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "山珍海味",
+    "banner": "http://omhf8n8jd.bkt.clouddn.com/4.png",
+    "sub_product_types": [
+      {
+        "id": 1,
+        "name": "测试类别2",
+        "description": "测试类别2",       
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183458@2x.png"
+      },
+      {
+        "id": 2,
+        "name": "测试类别3",
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183524@2x.png"
+      },
+      {
+        "id": 3,
+        "name": "测试列表4",
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183546@2x.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "东北好米",
+    "banner": "http://omhf8n8jd.bkt.clouddn.com/4.png",
+    "sub_product_types": [
+      {
+        "id": 1,
+        "name": "测试类别5",
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183458@2x.png"
+      },
+      {
+        "id": 2,
+        "name": "测试类别6",
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183524@2x.png"
+      },
+      {
+        "id": 3,
+        "name": "测试列表7",
+        "icon": "http://omhf8n8jd.bkt.clouddn.com/sub_product_types/QQ20170309-183546@2x.png"
+      }
+    ]
+  }
+]
