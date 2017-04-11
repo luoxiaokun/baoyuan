@@ -27,10 +27,12 @@
     position: relative;
     padding: 20px 10px;
     width: 50%;
+    float: left;
     box-sizing: border-box;
     display: inline-block;
     border-top: 1px solid #EDEDED;
     border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
     .thumb {
       width: 150px;
       height: 150px;

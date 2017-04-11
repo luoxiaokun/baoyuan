@@ -3,25 +3,23 @@
   "ended_at": 1489566747,
   "short_no": 1,
   "status": 1,
+  "person_limit": 2,
   "product": {
     "id": 2,
     "name": "东北松子",
     "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png",
     "description": "足不出户既享受俄罗斯美味,真材实料源自俄罗斯.",
     "single_price": 43,
-    "group_price": 23,
-    "group_no": 2
+    "group_price": 23
   },
   "members": [
     {
-      "id": 1,
       "name": "徐照临",
       "avatar": "http://omhf8n8jd.bkt.clouddn.com/0.jpeg",
       "joined_at": "2017-02-03 12:23:23",
       "is_owner": true
     },
     {
-      "id": 2,
       "name": "测试成员",
       "avatar": "http://omhf8n8jd.bkt.clouddn.com/0.jpeg",
       "joined_at": "2017-02-03 12:23:26",

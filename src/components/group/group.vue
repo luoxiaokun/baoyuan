@@ -16,7 +16,7 @@
             ￥ {{group.product.single_price}}
           </div>
           <div class="group-buy-btn buy-btn" @click="showProduct">
-            <span class="label">{{group.product.group_no}}人团</span>
+            <span class="label">{{group.person_limit}}人团</span>
             ￥ {{group.product.group_price}}
           </div>
         </div>
@@ -49,8 +49,11 @@
   import loading from 'components/loading/loading'
   import service from 'service/group_service'
   import {mapGetters} from 'vuex'
-  let WAIT = 0
-  let SUCCESS = 1
+  // let MYSELF = -1
+  let WAIT = 1
+  let LOCKED = 2
+  let SUCCESS = 3
+  let FAIL = 4
   export default {
     components: {
       'v-title': title,
@@ -94,9 +97,9 @@
         if (this.group.status === WAIT) {
           this.groupInfoView = 'join'
         } else {
-          if (this.group.status === SUCCESS) {
+          if (this.group.status === SUCCESS || this.group.status === LOCKED) {
             this.status.label = '很遗憾, 此团已拼团成功啦!'
-          } else {
+          } else if (this.group.status === FAIL) {
             this.status.label = '此团已过期啦'
           }
           this.groupInfoView = 'status'

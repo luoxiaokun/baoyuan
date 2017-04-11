@@ -1,16 +1,35 @@
 import axios from 'axios'
 import url from './api/url'
+
+const baseApi = axios.create({
+  baseURL: url,
+  timeout: 1000,
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json'
+  }
+})
+
 export default {
   get(api, params = {}) {
-    let apiUrl = `${url}${api}`
-    return axios.get(apiUrl, {params: params}).then((response) => {
-      return response.data
+    return new Promise((resolve, reject) => {
+      baseApi.get(api, {params: params}).then((response) => {
+        resolve(response.data)
+      })
     })
   },
   post(api, params = {}) {
-    let apiUrl = `${url}${api}`
-    return axios.post(apiUrl, params).then((response) => {
-      return response.data
+    return new Promise((resolve, reject) => {
+      baseApi.post(api, params).then((response) => {
+        resolve(response.data)
+      })
+    })
+  },
+  delete(api, params = {}) {
+    return new Promise((resolve, reject) => {
+      baseApi.delete(api, params).then((response) => {
+        resolve(response.data)
+      })
     })
   }
 }

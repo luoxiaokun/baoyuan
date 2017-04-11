@@ -135,7 +135,7 @@
               this.setAddressStr()
               this.$emit('addAddress', this.address)
               this.$emit('hideModal')
-            } 
+            }
           })
         }
       },
@@ -277,6 +277,7 @@
       line-height: 60px;
       border: 1px solid #c0bfc4; 
       .m-addr-select {
+        width: 100%;
         font-size: 16px;
         option {
           font-size: 16px;

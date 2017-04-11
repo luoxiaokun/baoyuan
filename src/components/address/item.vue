@@ -72,6 +72,7 @@
         if (this.isDefault) {
           return
         }
+        addressService.default(this.address)
         this._isDefault = true
       },
       _editAddress() {

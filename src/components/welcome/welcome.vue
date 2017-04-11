@@ -1,14 +1,14 @@
 <template>
   <div class="content">
     <v-header></v-header>
-      <!-- <div class="tab">
+      <div class="tab">
         <div class="tab-item">
           <router-link to="/welcome/recommend" replace>推荐</router-link>
         </div>      
         <div class="tab-item" v-for="category in categories">
           <router-link :to="{name: 'welcome_categories', params: {categoryId: category.id}}">{{category.name}}</router-link> 
         </div>
-      </div> -->
+      </div>
       <div class="container">
         <keep-alive>
           <router-view></router-view>

@@ -2,8 +2,8 @@
   <div class="profile">
     <div class="user-header">
       <div class="avatar">
-        <img src="./header.jpeg" alt="">
-        <div class="name">田胖子</div>
+        <img :src="currentUser.avatar" alt="">
+        <div class="name">{{currentUser.user_name}}</div>
       </div>
     </div>
     <div class="user-orders">
@@ -34,10 +34,16 @@
 <script>
   import tabbar from './tabbar'
   import userActionItem from './user_action_item'
+  import {mapGetters} from 'vuex'
   export default {
     components: {
       tabbar,
       userActionItem
+    },
+    computed: {
+      ...mapGetters({
+        'currentUser': 'currentUser'
+      })
     }
   }
 </script>

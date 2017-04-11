@@ -64,6 +64,7 @@
     methods: {
       getProductsByCategory(typeId) {
         service.getProductsByType(typeId).then((response) => {
+          console.log(response)
           this.currentSubCategory = response
           this.isLoading = false
           this.$nextTick(() => {

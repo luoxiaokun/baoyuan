@@ -30,5 +30,6 @@
     &:after {
       clear: both;      
     }
+    
   }
 </style>

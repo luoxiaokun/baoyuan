@@ -1,4 +1,4 @@
 export default {
-  welcome: '/welcome',
-  banners: '/banners'
+  welcome: 'welcome',
+  banners: 'banners'
 }

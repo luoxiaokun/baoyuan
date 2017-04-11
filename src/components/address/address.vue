@@ -110,7 +110,6 @@
         })
       },
       setAddress(address) {
-        console.log('hello world')
         this.$router.go(-1)
       }
     }

@@ -75,11 +75,14 @@
       ...mapGetters({
         quantity: 'quantity',
         product: 'product',
-        isGroupBuy: 'isGroupBuy'
+        isGroupBuy: 'isGroupBuy',
+        defaultAddress: 'defaultAddress'
       })
     },
     created() {
-      console.log(this.product)
+      if (this.defaultAddress != null) {
+        this.$store.dispatch('address', this.defaultAddress)
+      }
     }
   }
 </script>

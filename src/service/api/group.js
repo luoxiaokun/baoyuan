@@ -1,4 +1,4 @@
 export default {
-  group: '/groups/',
-  check: '/groups/check'
+  group: 'groups/',
+  check: 'groups/check'
 }

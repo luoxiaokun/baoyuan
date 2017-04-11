@@ -1,7 +1,7 @@
 let url = ''
 if (process.env.NODE_ENV === 'development') {
-  url = '/mobile/wx'
+  url = '/mobile/wx/'
 } else {
-  url = '/mobile/weixin/restaurants/'
+  url = '/wx/'
 }
 export default url

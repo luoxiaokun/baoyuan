@@ -1,3 +1,3 @@
 export default {
-  productTypes: '/product_types'
+  productTypes: 'product_types'
 }

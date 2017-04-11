@@ -19,7 +19,7 @@
          <delivery-label></delivery-label> 
          </div> 
          <split></split>
-          <group :groups="product.groups"></group> 
+          <group :groups="product.groups" v-if="product.groups.length > 0"></group> 
          <div class="product-image">
            <div class="product-image-detail">
              <img :src="image.url" alt="" v-for="image in product.images">

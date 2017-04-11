@@ -26,18 +26,18 @@ export default {
         street: address.detail
       }
     }
-    let url = `${api.update}${address.id}`
+    let url = `${api.update}${address.id}/update`
     return baseService.post(url, params)
   },
   delete(address) {
-    let url = `${api.delete}${address.id}`
+    let url = `${api.delete}${address.id}/delete`
     return baseService.get(url)
   },
   index() {
     return baseService.get(api.index)
   },
   default(address) {
-    let url = `${api.default}${address.id}`
+    let url = `${api.default}${address.id}/default`
     return baseService.get(url)
   }
 }
