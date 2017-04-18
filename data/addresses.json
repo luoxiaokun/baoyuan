@@ -1,0 +1,28 @@
+[
+  {
+    "is_default": false,
+    "name": "徐照临",
+    "phone": "15828050106",
+    "province": 1,
+    "province_str": "四川",
+    "city": 2,
+    "city_str": "成都",
+    "district": 1,
+    "district_str": "成华区",
+    "detail": "双林南支路22号",
+    "id": 1
+  },
+   {
+    "is_default": false,
+    "name": "徐照临",
+    "phone": "15828050106",
+    "province": 1,
+    "province_str": "四川",
+    "city": 2,
+    "city_str": "成都",
+    "district": 1,
+    "district_str": "成华区",
+    "detail": "双林南支路22号",
+    "id": 2
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "banners": [
+    {
+      "image": "http://omhf8n8jd.bkt.clouddn.com/banner.png",
+      "url": "http://www.baidu.com"
+    },
+    {
+      "image": "http://omhf8n8jd.bkt.clouddn.com/banner.png",
+      "url": "http://www.baidu.com"
+    }
+  ],
+  "top_products": [
+    {
+      "id": 1,
+      "name": "俄罗斯提拉米苏",
+      "description": "足不出户既享受俄罗斯美味,真材实料源自俄罗斯.",
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/top_products/QQ20170308-193758@2x.png",
+      "group_no": 2
+    },
+    {
+      "id": 2,
+      "name": "呼伦贝尔羊肉",
+      "description": "自然放牧生产,饲草饲存天然",
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/top_products/QQ20170308-193736@2x.png",
+       "group_no": 2
+    },
+    {
+      "id": 3,
+      "name": "长白山人参",
+      "description": "皇室享用养生,保值的软黄金",
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/top_products/QQ20170308-193750@2x.png",
+       "group_no": 2
+    }
+  ],
+  "new_products": [
+    {
+      "id": 1,
+      "name": "东北松子",
+      "group_price": 23,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png",
+       "group_no": 2
+
+    },
+    {
+      "id": 2,
+      "name": "东北粘豆包",
+      "group_price": 15,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224308.png",
+       "group_no": 2
+    },
+    {
+      "id": 3,
+      "name": "东北轴子",
+      "group_price": 58,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224319.png",
+       "group_no": 2
+    },
+    {
+      "id": 4,
+      "name": "黑木耳",
+      "group_price": 39,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224333.png",
+       "group_no": 2
+    }
+  ],
+  "hot_products": [
+    {
+      "id": 1,
+      "name": "秋林里道斯红肠",
+      "description": "厂家发货,新鲜直达,来自1900年的美味,东北人都吃过",
+      "group_price": 71,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png",
+       "group_no": 2
+    },
+    {
+      "id": 2,
+      "name": "冷面",
+      "description": "朝鲜冷面,夏日必备,酸辣可口,沁人心脾",
+      "group_price": 32,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224308.png",
+      "group_no": 2
+    }
+  ]
+}

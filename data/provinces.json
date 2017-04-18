@@ -1,0 +1,32 @@
+{
+  "provinces": [
+    {
+      "province_id": 1,
+      "name": "四川"
+    },
+    {
+      "province_id":2,
+      "name":"北京"
+    }
+  ],
+  "cities": [
+    {
+      "city_id": 1,
+      "name": "成都"
+    },
+    {
+      "city_id": 2,
+      "name": "巴中"
+    }
+  ],
+  "districts": [
+    {
+      "district_id": 1,
+      "name": "金牛区"
+    },
+    {
+      "district_id": 2,
+      "name": "锦江区"
+    }
+  ]
+}

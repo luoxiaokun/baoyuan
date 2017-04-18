@@ -1,0 +1,49 @@
+{
+  "id": 1,
+  "name": "东北松子",
+  "single_price": 43,
+  "group_price": 23,
+  "group_no": 2,  
+  "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png",
+  "thumbs": [
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    }
+  ],
+  "images": [
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/3.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/3.png"
+    }
+  ],
+  "sell_count": 45,
+  "is_fav": false,
+  "groups": [
+    {
+      "create_user": {
+        "name": "徐照临",
+        "avatar": "http://omhf8n8jd.bkt.clouddn.com/0.jpeg"
+      },
+      "ended_at": 1489563747,
+      "short_no": 2,
+      "id": 1
+    },
+    {
+      "create_user": {
+        "name": "徐照临",
+        "avatar": "http://omhf8n8jd.bkt.clouddn.com/0.jpeg"
+      },
+      "ended_at": 1489487362,
+      "short_no": 1,
+      "id": 2
+    }
+  ]
+}

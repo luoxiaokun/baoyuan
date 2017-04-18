@@ -1,0 +1,40 @@
+{
+  "first": [  
+    {
+      "id": 1,
+      "name": "东北松子",
+      "single_price": 43,
+      "group_price": 23,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png"
+    },
+    {
+      "id": 2,
+      "name": "东北粘豆包",
+      "single_price": 20,
+      "group_price": 15,
+       "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224308.png"
+    }
+  ],
+  "second": [
+    {
+      "id": 3,
+      "name": "东北轴子",
+      "single_price": 60,
+      "group_price": 58,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224319.png"
+    }
+  ],
+  "third": [
+    {
+      "id": 4,
+      "name": "黑木耳",
+      "single_price": 40,
+      "group_price": 39,
+      "group_no": 2,
+      "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224333.png"
+    }
+  ]  
+}
