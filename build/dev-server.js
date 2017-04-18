@@ -109,6 +109,15 @@ router.get('/groups/:groupId', function(req, res) {
   res.json(groupData)
 })
 
+var userData = require('../data/profile.json')
+router.get('/my/profile', function(req, res) {
+  res.json(userData.user)
+})
+
+router.get('/my/profile/default_delivery_info', function(req, res) {
+  res.json(userData.default_delivery)
+})
+
 app.use('/mobile/wx', router)
 
 var compiler = webpack(webpackConfig)

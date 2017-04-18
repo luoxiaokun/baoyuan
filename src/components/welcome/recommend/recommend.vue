@@ -48,7 +48,6 @@
     <product-list :products="hotProducts"></product-list> 
   </div>
   
-
   <loading v-if="isLoading"></loading>
 </div>  
 </template>

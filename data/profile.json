@@ -1,0 +1,18 @@
+{
+  "user": {
+    "user_name":"徐照临",
+    "avatar":"http://omhf8n8jd.bkt.clouddn.com/0.jpeg"
+  },
+  "default_delivery": {
+    "has_address":true,
+    "name":"徐照临",
+    "phone":"15828050106",
+    "province":4,
+    "province_str":"山西省",
+    "city":16,
+    "city_str":"阳泉市",
+    "district":231,
+    "district_str":"矿区",
+    "street":"测试地址"
+  }
+}
