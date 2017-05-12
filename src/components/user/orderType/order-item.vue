@@ -107,6 +107,9 @@
         -webkit-box-align: center;
         -webkit-align-items: center;
         align-items: center;
+            img {
+              border-radius:.2rem;
+            }
         }
         .item-font{
             width:100%;
