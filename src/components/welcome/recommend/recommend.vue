@@ -3,35 +3,38 @@
   <carousel :banners="banners"></carousel>
   <div class="top-products" v-if="topProducts.length == 3">
     <div class="product-wrapper">
-      <div class="product-first product-group">
+      <div class="product-first product-group"
+      :style="{backgroundImage: 'url(' + topProducts[0].icon + ')'}">
         <div class="title">
            <h5 class="product-title">{{topProducts[0].name}}</h5>
           <p class="product-description">
            {{topProducts[0].description}}
           </p>
         </div>
-        <div class="product-thumb">
-          <img :src="topProducts[0].icon" alt="">
-        </div>
+        <!-- <div class="product-thumb"> -->
+          <!-- <img :src="topProducts[0].icon" alt=""> -->
+        <!-- </div> -->
       </div>
       <div class="product-second product-group">
-        <div class="product-item">
+        <div class="product-item"
+        :style="{backgroundImage: 'url(' + topProducts[1].icon + ')'}">
           <div class="title">
               <h5 class="product-title">{{topProducts[1].name}}</h5>
               <p class="product-description">{{topProducts[1].description}}</p>
           </div>
-          <div class="product-thumb">
+          <!-- <div class="product-thumb">
             <img :src="topProducts[1].icon" alt="">
+        </div> -->
         </div>
-        </div>
-        <div class="product-item">
+        <div class="product-item"
+        :style="{backgroundImage: 'url(' + topProducts[2].icon + ')'}">
           <div class="title">
               <h5 class="product-title">{{topProducts[2].name}}</h5>
               <p class="product-description">{{topProducts[2].description}}</p>
           </div>
-          <div class="product-thumb">
+          <!-- <div class="product-thumb">
             <img :src="topProducts[2].icon"  alt="">
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -180,6 +183,7 @@
         display: flex;
         padding-left: 5px;  
         padding-right: 10px;
+        background-size:cover;
         
         .title {
           flex: 1;
@@ -199,7 +203,7 @@
         } 
       }
       .product-item:nth-child(2) {
-        padding-top: 20px;
+        // padding-top: 20px;
         position: relative;
          &:after {
           display: block;
