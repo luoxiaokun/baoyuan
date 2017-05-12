@@ -36,6 +36,8 @@ var productData = require('../data/product.json')
 var locationData = require('../data/provinces.json')
 var addressData = require('../data/addresses.json')
 var groupData = require('../data/group.json')
+var collectData = require('../data/collect.json')
+var orderData = require('../data/order.json')
 
 router.get('/welcome', function (req, res) {
   res.json(recommendData)
@@ -94,13 +96,13 @@ router.get('/addresses', function(req, res) {
   res.json(addressData)
 })
 
-router.get('/addresses/default/:addressId', function(req, res) {
+router.get('/addresses/:addressId/default', function(req, res) {
   res.json({
     is_success: true
   })
 })
 
-router.get('/addresses/delete/:addressId', function(req, res) {
+router.delete('/addresses/:addressId/delete', function(req, res) {
   res.json({
     is_success: true
   })
@@ -109,6 +111,24 @@ router.get('/groups/:groupId', function(req, res) {
   res.json(groupData)
 })
 
+var userData = require('../data/profile.json')
+router.get('/my/profile', function(req, res) {
+  res.json(userData.user)
+})
+
+router.get('/collectes', function(req, res) {
+  res.json(collectData)
+})
+
+router.get('/orders/:orderType', function(req, res) {
+  if (req.params.orderType === '1') {
+    res.json(orderData)
+  }
+})
+
+router.get('/my/profile/default_delivery_info', function(req, res) {
+  res.json(userData.default_delivery)
+})
 app.use('/mobile/wx', router)
 
 var compiler = webpack(webpackConfig)

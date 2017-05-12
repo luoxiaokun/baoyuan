@@ -29,6 +29,5 @@
     &:after {
       clear: both;      
     }
-    
   }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <router-link class="tabbar-item" :to="url">
     <span class="badge">
-      <i class="icon" :class="[icon]"></i>
+      <img :src=icon alt="" class="icon" width="100%" style="width:2rem">
       <span class="weui-badge" style="position: absolute;top: -15px;right: -10px;" v-if="number > 0">
          {{number}}
       </span>
@@ -34,6 +34,7 @@
   .tabbar-item {
     flex: 1;
     color: #000;
+    padding-top: 10px;
     padding-bottom: 10px;
     .badge {
       position: relative;

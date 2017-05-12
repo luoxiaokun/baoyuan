@@ -1,7 +1,9 @@
 <template>
   <router-link class="action-cell" tag="li" :to="url">
-    <i class="icon" :class="[icon]"></i>
-    <span>{{message}}</span>
+    <!-- <i class="icon" :class="[icon]"></i> -->
+    <img :src=icon alt="" class="img" width="100%">
+    &nbsp;
+    <span class="font">{{message}}</span>
     <span class="arrow"></span>
   </router-link>
 </template>
@@ -25,14 +27,22 @@
 <style lang="stylus" scoped>
   .action-cell {
     color: #000;
-    padding: 10px 20px;
+    padding: 10px 20px 5px 20px;
     border-bottom: 1px solid #D9D9D9;
     text-align: left;
     position: relative;
-    i {
-      color: #999;
-      font-size: 24px;
-    }  
+    // i {
+    //   color: #999;
+    //   font-size: 24px;
+    // }  
+      img {
+        width:1.4rem;
+        margin-top:.2rem;
+      }
+      .font{
+        position:absolute;
+        line-height:2rem;
+      }
     .arrow {
       &:after {
         content: " ";

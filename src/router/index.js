@@ -7,6 +7,9 @@ import addressRouter from './address'
 import {categoryRouter, subCategoriesRouter} from './type'
 import {userProfileRouter, userFavRouter} from './profile'
 import groupRouter from './group'
+import collectRouter from './collect'
+import orderTypeRouter from './orderType'
+import groupStatusRouter from './groupStatus'
 Vue.use(Router)
 
 const router = new Router({
@@ -19,7 +22,10 @@ const router = new Router({
     addressRouter,
     userProfileRouter,
     userFavRouter,
-    groupRouter
+    groupRouter,
+    collectRouter,
+    orderTypeRouter,
+    groupStatusRouter
   ],
   linkActiveClass: 'active'
 })

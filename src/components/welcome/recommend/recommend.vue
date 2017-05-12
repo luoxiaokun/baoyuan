@@ -47,8 +47,6 @@
     <title-label :title="'人气产品'"></title-label>  
     <product-list :products="hotProducts"></product-list> 
   </div>
-  
-
   <loading v-if="isLoading"></loading>
 </div>  
 </template>
@@ -81,7 +79,7 @@
       }
     },
     created() {
-      this._initContent()
+      // this._initContent()
       service.welcome().then((response) => {
         this.banners = response.banners
         this.topProducts = response.top_products
@@ -115,6 +113,9 @@
     // height: 100%;
     // overflow: hidden;
   }
+  ::-webkit-scrollbar {
+    display: none;
+      }
   .product-description {
     color: rgb(147, 153, 159);
     font-size: 10px;

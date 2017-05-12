@@ -1,0 +1,61 @@
+[
+  {
+  "id": 1,
+  "name": "东北松子",
+  "description": "足不出户既享受俄罗斯美味,真材实料源自俄罗斯.",
+  "single_price": 43,
+  "group_price": 23,
+  "group_no": 2,  
+  "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png",
+  "thumbs": [
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    }
+  ],
+  "images": [
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/3.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/3.png"
+    }
+  ],
+  "sell_count": 45,
+  "is_fav": false
+},
+ {
+  "id": 2,
+  "name": "东北松子",
+  "single_price": 43,
+  "group_price": 23,
+  "group_no": 2,  
+  "icon": "http://omhf8n8jd.bkt.clouddn.com/new_products/QQ20170308-224247.png",
+  "thumbs": [
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/2.png"
+    }
+  ],
+  "images": [
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/3.png"
+    },
+    {
+      "url": "http://omhf8n8jd.bkt.clouddn.com/products/2/3.png"
+    }
+  ],
+  "sell_count": 45,
+  "is_fav": false
+}
+]
