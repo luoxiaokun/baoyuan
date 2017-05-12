@@ -30,12 +30,13 @@
     width: 50%;
     box-sizing: border-box;
     .thumb {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       margin: 0 auto;
       img {
         width: 100%;
         height: 100%;
+        border-radius:.2rem;
       }
     }
     .title {

@@ -22,7 +22,7 @@
         <tabbar :label="'待付款'" :icon="_iconUrl('./obligation.png')" :url="{name: 'orderType', params: {orderType: 1}}"></tabbar>
         <tabbar :label="'待发货'" :icon="_iconUrl('./shipments.png')" :url="{name: 'orderType', params: {orderType: 2}}" :number="2"></tabbar>
         <tabbar :label="'待收货'" :icon="_iconUrl('./receiving.png')" :url="{name: 'orderType', params: {orderType: 3}}"></tabbar>
-        <tabbar :label="'待评价'" :icon="_iconUrl('./evaluate.png')" :url="{name: 'orderType', params: {orderType: 4}}"></tabbar>
+        <tabbar :label="'已完成'" :icon="_iconUrl('./evaluate.png')" :url="{name: 'orderType', params: {orderType: 4}}"></tabbar>
       </div>
       <div class="tabbars" v-show="type === 1">
         <tabbar :label="'待成团'" :icon="_iconUrl('./12@2x.png')" :url="{name: 'groupStatus', params: {groupType: 0}}"></tabbar>
@@ -35,8 +35,8 @@
         <user-action-item :icon="_iconUrl('./15@2x.png')"  :message="'全部订单'" :url="{name: 'orderType', params: {orderType: 0}}"></user-action-item>
         <user-action-item :icon="_iconUrl('./16@2x.png')" :message="'我的收藏'" :url="{name: 'collectes'}"></user-action-item>
         <user-action-item :icon="_iconUrl('./17@2x.png')"  :message="'地址管理'" :url="{name: 'addresses'}"></user-action-item>
-        <user-action-item :icon="_iconUrl('./18@2x.png')"  :message="'常见问题'" :url="{name: 'addresses'}"></user-action-item>
-        <user-action-item :icon="_iconUrl('./19@2x.png')"  :message="'在线客服'" :url="{name: 'addresses'}"></user-action-item>
+        <user-action-item :icon="_iconUrl('./18@2x.png')"  :message="'常见问题'"></user-action-item>
+        <user-action-item :icon="_iconUrl('./19@2x.png')"  :message="'在线客服'"></user-action-item>
       </ul>
     </div>
   </div>
@@ -77,24 +77,17 @@
 <style lang="stylus" scoped>
   .bg{
     background-size: cover;
-    padding-top:12rem;
+    padding-top:11rem;
     -webkit-filter: blur(10px);
        -moz-filter: blur(10px);
         -ms-filter: blur(10px);    
             filter: blur(5px);
   }
   .user-header {
-    // background: url('http://omhf8n8jd.bkt.clouddn.com/bj.png');
-    // background-size: cover;
-    // min-height: 200px;
-    // padding: 0 20px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // position:absolute;
-    margin-top: -10rem;
-    padding-bottom:3rem;
-    // margin-left:auto;
+    position:absolute;
+    width:100%;
+    margin-top: -9rem;
+    padding-bottom:1rem;
     -webkit-filter: blur(0px);
        -moz-filter: blur(0px);
         -ms-filter: blur(0px);    

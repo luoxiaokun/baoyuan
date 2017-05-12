@@ -4,8 +4,13 @@
     <div class="tabInfo">
         <tabinfo :type=type @changetype="change"></tabinfo>
       </div>
-    <div class="order-main">
-        <item v-for="item in items" :item="item" :key="item.order_id" :type=type></item>
+
+    <div class="order-main" v-if="items.length !== 0">
+          <item v-for="item in items" :item="item" :key="item.order_id" :type=type></item>
+    </div>
+    <div class="no-order" v-if="items.length === 0">
+      <img src="./暂无订单@2x.png" alt="" width="100%" class="image"><br>
+      <span class="sm-font">暂无相关订单</span>
     </div>
 </div>
 </template>
@@ -69,5 +74,11 @@
     color: #000;
     text-align:left;
    }
+   .no-order{
+    margin: 8rem 0;
+   }
+    .image{
+      width:14rem;
+    }
   
 </style>

@@ -60,7 +60,7 @@
         padding: 0px
         margin: 20px 0; 
         color: #000;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 30px;
         
         &.current {

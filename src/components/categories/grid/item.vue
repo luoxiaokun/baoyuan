@@ -34,7 +34,7 @@
     }
     .title {
       margin-top: 10px;
-      font-size: 16px;
+      font-size: 14px;
       color: #000;
       text-align: center;
     }
